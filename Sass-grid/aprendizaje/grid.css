@@ -1,0 +1,52 @@
+.ob {
+    /*Contenedor*/
+
+    display: grid;
+    /*Activa grid.*/
+
+    grid-template-rows: max-content 10% auto 10%;
+    grid-template-columns: auto 30em min-content;
+    grid: 80px 120px / auto auto auto;
+    /*Cauntas filas y columnas y su tamanno.*/
+
+    grid-auto-columns: min-content;
+    grid-auto-rows: max-content;
+    /*Le da el mismo tamanno a todas las columnas y filas.*/
+
+
+    grid-template-areas:
+
+        'cabecera cabecera'
+        'menu'
+        'contenido aside'
+        'footer footer';
+    /*Antes de usarla hay que definir el layout con 'grid-template-rows' y 'grid-template-columns'.
+    Especifica cómo mostrar columnas y filas, utilizando elementos de grid con nombre.*/
+
+
+
+    justify-content: flex-end;
+    /*El ancho total de las cuadrículas debe ser menor que el ancho del contenedor para que la propiedad de justifify-content tenga algún efecto.*/
+
+    align-content: end;
+    /*Alineacion con respecto al eje transversal.*/
+
+    row-gap: normal;
+    column-gap: normal;
+    gap: 30px 40px;
+    /*La brecha entre filas y columnas.*/
+
+    grid-auto-flow: dense;
+    /*Como iran fluyendo los elementos en filas o en columnas*/
+}
+
+.ub {
+    /*Elemento*/
+    grid-row: 1/3;
+    grid-column: 1 /span 4;
+    grid-area: 1/1 / 3/4;
+    /*En que lineas comienzan y terminan las filas y las columnas.*/
+
+    grid-area: cabecera;
+    /*Nombres para organizar elementos con "grid-template-areas*/
+}

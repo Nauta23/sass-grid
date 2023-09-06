@@ -1,0 +1,57 @@
+/*variables*/
+h1 {
+  /*Con !global una variable local se vuelve global.*/
+  color: green;
+}
+
+p {
+  color: green;
+}
+
+/*Importa archivos scss solamente.*/
+nav {
+  /*Anidacion*/
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+/*Extender/Herencia*/
+.warning, .error, .success, .message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}
+
+.warning {
+  border-color: yellow;
+}
+
+/*Cojunto de estilos en los cuales hay variables con un valor que puede ser cambiado cada vez que se invoque el mixin en otra parte.*/
+.myArticle {
+  border: 1px solid blue;
+  /*Segunda forma.*/
+}
+
+.myNotes {
+  border: 2px solid red;
+  /*Segunda forma.*/
+}/*# sourceMappingURL=style.css.map */

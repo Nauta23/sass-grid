@@ -1,0 +1,84 @@
+$color-primario: brown;
+/*variables*/
+
+$myColor: red;
+
+h1 {
+    $myColor: green !global;
+    /*Con !global una variable local se vuelve global.*/
+    color: $myColor;
+}
+
+p {
+    color: $myColor;
+}
+
+@import 'some-file.scss';
+/*Importa archivos scss solamente.*/
+
+
+nav {
+
+    /*Anidacion*/
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            display: inline-block;
+
+            a {
+                display: block;
+                padding: 6px 12px;
+                text-decoration: none;
+            }
+        }
+    }
+
+}
+
+/*Extender/Herencia*/
+%message-shared {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+}
+
+
+.message {
+    @extend %message-shared;
+}
+
+.success {
+    @extend %message-shared;
+    border-color: green;
+}
+
+.error {
+    @extend %message-shared;
+    border-color: red;
+}
+
+.warning {
+    @extend %message-shared;
+    border-color: yellow;
+}
+
+
+
+/*Cojunto de estilos en los cuales hay variables con un valor que puede ser cambiado cada vez que se invoque el mixin en otra parte.*/
+
+@mixin bordered($color, $width) {
+    border: $width solid $color;
+    /*Segunda forma.*/
+}
+
+.myArticle {
+    @include bordered(blue, 1px); // Call mixin with two values
+}
+
+.myNotes {
+    @include bordered(red, 2px); // Call mixin with two values
+}
+
