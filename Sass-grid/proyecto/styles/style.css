@@ -38,10 +38,10 @@ body .header .header__nav .header__tabs {
   color: inherit;
 }
 body .main__section-1 {
-  height: 44.14em;
+  /* height: 44.14em; */
   display: grid;
   grid-template-rows: auto 4.69em auto auto auto;
-  grid-template-columns: 2em auto;
+  grid-template-columns: 25em auto;
   justify-content: center;
 }
 body .main__section-1 .section-1__title {
