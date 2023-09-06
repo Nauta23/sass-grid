@@ -59,11 +59,11 @@ body .main__section-1 .section-1__image {
 }
 
 .main__section-1 > * {
-  /* outline: 2px solid gold; */
+  outline: 2px solid gold;
 }
 
 input[type=button] {
-  background-color: hsl(224, 93%, 58%);
+  background-color: hsl(224deg, 93%, 58%);
   border-style: none;
   color: white;
 }
@@ -113,4 +113,5 @@ input[type=button] {
     background-color: gold;
     outline: 2px solid black;
 
-} *//*# sourceMappingURL=style.css.map */
+} */
+/*# sourceMappingURL=style.css.map */
