@@ -41,7 +41,7 @@ body .main__section-1 {
   height: 44.14em;
   display: grid;
   grid-template-rows: auto 4.69em auto auto auto;
-  grid-template-columns: 25em auto;
+  grid-template-columns: 2em auto;
   justify-content: center;
 }
 body .main__section-1 .section-1__title {
@@ -55,11 +55,11 @@ body .main__section-1 .section-1__form {
 }
 body .main__section-1 .section-1__image {
   grid-area: 1/2/6/3;
-  max-width: 100%;
-  max-height: 100%;
 }
 body .main__section-1 > * {
   margin: 0;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /*
