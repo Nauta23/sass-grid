@@ -84,14 +84,14 @@ body {
   }
 }
 
-/*
+
 input[type="button"] {
   background-color: $moderate-cyan;
   border-style: none;
   color: white;
 }
 
- .ob {
+/*  .ob {
     color: hsl(238, 22%, 44%);
     color: hsl(243, 87%, 12%);
     color: hsl(224, 93%, 58%);
@@ -99,9 +99,9 @@ input[type="button"] {
     color: hsl(240, 75%, 98%);
     color: hsl(0, 0%, 75%);
     
-}
+} */
 
- .container {
+/*  .container {
 
     display: grid;
     grid-template-rows: auto auto auto;
@@ -131,11 +131,10 @@ input[type="button"] {
         grid-area: 1/2 / 4/3;
 
     }
-}
+} */
 
-.container>* {
+/* .container>* {
     background-color: gold;
     outline: 2px solid black;
 
-}
-*/
+} */
