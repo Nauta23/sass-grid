@@ -58,17 +58,14 @@ body .main__section-1 .section-1__image {
   max-height: 100%;
 }
 
-.main__section-1 > * {
-  outline: 2px solid gold;
-}
-
-input[type=button] {
-  background-color: hsl(224deg, 93%, 58%);
+/*
+input[type="button"] {
+  background-color: $moderate-cyan;
   border-style: none;
   color: white;
 }
 
-/* .ob {
+ .ob {
     color: hsl(238, 22%, 44%);
     color: hsl(243, 87%, 12%);
     color: hsl(224, 93%, 58%);
@@ -76,8 +73,9 @@ input[type=button] {
     color: hsl(240, 75%, 98%);
     color: hsl(0, 0%, 75%);
 
-} */
-/* .container {
+}
+
+ .container {
 
     display: grid;
     grid-template-rows: auto auto auto;
@@ -113,5 +111,6 @@ input[type=button] {
     background-color: gold;
     outline: 2px solid black;
 
-} */
+}
+*/
 /*# sourceMappingURL=style.css.map */

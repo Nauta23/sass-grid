@@ -52,10 +52,10 @@ body {
   }
 
   .main__section-1 {
-    $row-width: auto;
+    $row-height: auto;
 
     display: grid;
-    grid-template-rows: $row-width $row-width $row-width $row-width $row-width;
+    grid-template-rows: $row-height $row-height $row-height $row-height $row-height;
     grid-template-columns: 25em auto;
     justify-content: center;
 
@@ -79,17 +79,14 @@ body {
   }
 }
 
-.main__section-1 > * {
-  outline: 2px solid gold;
-}
-
+/*
 input[type="button"] {
   background-color: $moderate-cyan;
   border-style: none;
   color: white;
 }
 
-/* .ob {
+ .ob {
     color: hsl(238, 22%, 44%);
     color: hsl(243, 87%, 12%);
     color: hsl(224, 93%, 58%);
@@ -97,9 +94,9 @@ input[type="button"] {
     color: hsl(240, 75%, 98%);
     color: hsl(0, 0%, 75%);
     
-} */
+}
 
-/* .container {
+ .container {
 
     display: grid;
     grid-template-rows: auto auto auto;
@@ -135,4 +132,5 @@ input[type="button"] {
     background-color: gold;
     outline: 2px solid black;
 
-} */
+}
+*/
