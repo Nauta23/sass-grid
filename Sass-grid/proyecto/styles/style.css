@@ -39,7 +39,7 @@ body .header .header__nav .header__tabs {
   color: inherit;
 }
 body .main__section-1 {
-  /* height: 44.14em; */
+  height: 44.14em;
   display: grid;
   grid-template-rows: auto 0.000001em 4.69em auto auto auto;
   grid-template-columns: 25em auto;
