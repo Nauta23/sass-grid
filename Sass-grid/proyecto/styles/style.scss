@@ -53,11 +53,10 @@ body {
   }
 
   .main__section-1 {
-    $row-height: auto;
     height: 44.14em;
 
     display: grid;
-    grid-template-rows: $row-height 0.000001em 4.69em $row-height $row-height $row-height;
+    grid-template-rows: auto 20% 20% 20% auto;
     grid-template-columns: 25em auto;
     justify-content: center;
 
