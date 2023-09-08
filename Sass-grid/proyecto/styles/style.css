@@ -40,7 +40,7 @@ body .header .header__nav .header__tabs {
   color: inherit;
 }
 body .main__section-1 {
-  max-height: 44.14em;
+  max-height: 44em;
   display: grid;
   grid-template-rows: auto 20% 20% 20% auto;
   grid-template-columns: 32em auto;
