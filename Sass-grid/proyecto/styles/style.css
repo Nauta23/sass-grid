@@ -12,6 +12,7 @@ body {
   display: grid;
   grid-auto-flow: row;
   row-gap: 10em;
+  grid-template-rows: auto auto;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   padding-right: 2.7em;
@@ -42,8 +43,9 @@ body .header .header__nav .header__tabs {
 body .main__section-1 {
   max-height: 44em;
   display: grid;
-  grid-template-rows: auto 20% 20% 20% auto;
-  grid-template-columns: 40% auto;
+  grid-template-rows: auto -webkit-min-content -webkit-min-content -webkit-min-content auto;
+  grid-template-rows: auto min-content min-content min-content auto;
+  grid-template-columns: auto auto;
   justify-content: center;
 }
 body .main__section-1 .section-1__title {
@@ -52,7 +54,7 @@ body .main__section-1 .section-1__title {
 }
 body .main__section-1 .section-1__description {
   grid-area: 3/1/4/2;
-  font-size: 1.25em;
+  font-size: 1.375em;
 }
 body .main__section-1 .section-1__form {
   grid-area: 4/1/5/2;

@@ -22,6 +22,7 @@ body {
   display: grid;
   grid-auto-flow: row;
   row-gap: 10em;
+  grid-template-rows: auto auto;
 
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -59,13 +60,14 @@ body {
   }
 
   .main__section-1 {
-    $row-height: 20%;
+    $max-h: 44em;
+    $row-h: min-content;
 
     max-height: 44em;
 
     display: grid;
-    grid-template-rows: auto $row-height $row-height $row-height auto;
-    grid-template-columns: 40% auto;
+    grid-template-rows: auto $row-h $row-h $row-h auto;
+    grid-template-columns: auto auto;
     justify-content: center;
 
     .section-1__title {
@@ -75,7 +77,7 @@ body {
 
     .section-1__description {
       grid-area: 3/1 / 4/2;
-      @include font(math.div(20em, 16));
+      @include font(math.div(22em, 16));
     }
 
     .section-1__form {
@@ -84,6 +86,9 @@ body {
 
     .section-1__image {
       grid-area: 1/2 / 6/3;
+    }
+
+    .section-1__image > * {
     }
   }
 
