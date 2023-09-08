@@ -14,7 +14,7 @@ $moderate-cyan: hsl(224, 93%, 58%);
 $padding-x: 2.7em;
 
 /* Mixing */
-@mixin font($font-size) {
+@mixin font($font-s) {
   font-size: $font-s;
 }
 
