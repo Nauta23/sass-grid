@@ -59,11 +59,13 @@ body {
   }
 
   .main__section-1 {
+    $row-height: 20%;
+
     max-height: 44em;
 
     display: grid;
-    grid-template-rows: auto 20% 20% 20% auto;
-    grid-template-columns: 32em auto;
+    grid-template-rows: auto $row-height $row-height $row-height auto;
+    grid-template-columns: 40% auto;
     justify-content: center;
 
     .section-1__title {
