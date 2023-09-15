@@ -60,14 +60,14 @@ body {
   }
 
   .main__section-1 {
-    $max-h: 44em;
+    /* $max-h: 44em; */
     $row-h: min-content;
 
-    max-height: $max-h;
+    /* max-height: $max-h; */
 
     display: grid;
     grid-template-rows: $row-h $row-h $row-h $row-h $row-h;
-    grid-template-columns: 40% auto;
+    grid-template-columns: 30% auto;
     justify-content: center;
 
     .section-1__title {
@@ -88,8 +88,8 @@ body {
       grid-area: 1/2 / 6/3;
     }
 
-    .section-1__image > * {
-    }
+/*     .section-1__image > * {
+    } */
   }
 
   .main__section-1 > * {
