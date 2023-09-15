@@ -61,13 +61,13 @@ body {
 
   .main__section-1 {
     $max-h: 44em;
-    $row-h: min-content;
+    $row-h: max-content;
 
     max-height: 44em;
 
     display: grid;
-    grid-template-rows: auto $row-h $row-h $row-h auto;
-    grid-template-columns: auto auto;
+    grid-template-rows: $row-h $row-h $row-h $row-h $row-h;
+    grid-template-columns: 60% auto;
     justify-content: center;
 
     .section-1__title {
@@ -94,8 +94,6 @@ body {
 
   .main__section-1 > * {
     margin: 0;
-    max-width: 100%;
-    max-height: 100%;
   }
 
   input[type="button"] {
