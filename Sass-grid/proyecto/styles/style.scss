@@ -60,16 +60,16 @@ body {
   }
 
   .main__section-1 {
-    /* $max-h: 44em; */
+    $max-h: math.div(601.56em, 16);
     $row-h: min-content;
 
-    /* max-height: $max-h; */
+    max-height: $max-h;
 
     display: grid;
     grid-template-rows: $row-h $row-h $row-h $row-h $row-h;
-    grid-template-columns: 30% auto;
+    grid-template-columns: 40% auto;
     justify-content: center;
-
+    max-width: 100%;
     .section-1__title {
       grid-area: 2/1 / 3/2;
       @include font(math.div(32em, 16));
@@ -86,9 +86,11 @@ body {
 
     .section-1__image {
       grid-area: 1/2 / 6/3;
+      max-width: 100%;
+      max-height: 100%;
     }
 
-/*     .section-1__image > * {
+    /*     .section-1__image > * {
     } */
   }
 
