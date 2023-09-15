@@ -61,13 +61,13 @@ body {
 
   .main__section-1 {
     $max-h: 44em;
-    $row-h: max-content;
+    $row-h: min-content;
 
-    max-height: 44em;
+    max-height: $max-h;
 
     display: grid;
     grid-template-rows: $row-h $row-h $row-h $row-h $row-h;
-    grid-template-columns: 60% auto;
+    grid-template-columns: 40% auto;
     justify-content: center;
 
     .section-1__title {
