@@ -54,6 +54,7 @@ body .main__section-1 {
 body .main__section-1 .section-1__title {
   grid-area: 2/1/3/2;
   font-size: 2em;
+  padding-bottom: 1em;
 }
 body .main__section-1 .section-1__description {
   grid-area: 3/1/4/2;
