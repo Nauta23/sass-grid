@@ -18,6 +18,10 @@ $padding-x: 2.7em;
   font-size: $font-s;
 }
 
+@mixin pb($padding-b) {
+  padding-bottom: $padding-b;
+}
+
 body {
   display: grid;
   grid-auto-flow: row;
