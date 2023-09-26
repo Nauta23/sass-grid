@@ -43,8 +43,8 @@ body .header .header__nav .header__tabs {
 body .main__section-1 {
   max-height: 37.5975em;
   display: grid;
-  grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
-  grid-template-rows: min-content min-content min-content min-content min-content;
+  grid-template-rows: auto -webkit-min-content -webkit-min-content -webkit-min-content auto;
+  grid-template-rows: auto min-content min-content min-content auto;
   grid-template-columns: 40% auto;
   justify-content: center;
   max-width: 100%;
