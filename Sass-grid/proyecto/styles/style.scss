@@ -13,13 +13,17 @@
 $moderate-cyan: hsl(224, 93%, 58%);
 $padding-x: 2.7em;
 
-/* Mixing */
+/* Mixings */
 @mixin font($font-s) {
   font-size: $font-s;
 }
 
 @mixin pb($padding-b) {
   padding-bottom: $padding-b;
+}
+
+@mixin mh($max-h) {
+  max-height: $max-h;
 }
 
 body {
@@ -85,6 +89,7 @@ body {
       @include font(math.div(32em, 16));
 
       @include pb(1em);
+      @include mh(math.div(105.59em, 16));
     }
 
     .section-1__description {
