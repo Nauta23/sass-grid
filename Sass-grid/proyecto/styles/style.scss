@@ -72,11 +72,7 @@ body {
   }
 
   .main__section-1 {
-    $max-h: math.div(601.56em, 16);
-    $row-h: min-content;
-
-    max-height: $max-h;
-    min-width: math.div(1353.63em, 16);
+    width: 10em;
 
     display: grid;
     grid-template-rows: auto $row-h $row-h $row-h auto;
