@@ -76,7 +76,6 @@ body {
     $row-h: min-content;
 
     max-height: $max-h;
-    min-width: math.div(1353.63em, 16);
 
     display: grid;
     grid-template-rows: auto $row-h $row-h $row-h auto;
@@ -89,7 +88,7 @@ body {
       @include font(math.div(32em, 16));
 
       @include pb(1em);
-      @include mh(math.div(105.59em, 16));
+      /* @include mh(math.div(105.59em, 16)); */
     }
 
     .section-1__description {
@@ -133,40 +132,32 @@ body {
     
 } */
 
- .container {
+.container {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto;
+  height: 400px;
+  margin-top: 200px;
+  background-color: green;
 
-    display: grid;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: auto auto;
-    height: 400px;
-    margin-top: 200px;
-    background-color: green;
+  .caja-1 {
+    grid-area: 1/1 / 2/2;
+  }
 
+  .caja-2 {
+    grid-area: 2/1 / 3/2;
+  }
 
-    .caja-1 {
-        grid-area: 1/1 / 2/2;
+  .caja-3 {
+    grid-area: 3/1 / 4/2;
+  }
 
-    }
-
-    .caja-2 {
-        grid-area: 2/1 / 3/2;
-
-    }
-
-    .caja-3 {
-        grid-area: 3/1 / 4/2;
-
-
-    }
-
-    .caja-4 {
-        grid-area: 1/2 / 4/3;
-
-    }
+  .caja-4 {
+    grid-area: 1/2 / 4/3;
+  }
 }
 
-.container>* {
-    background-color: gold;
-    outline: 2px solid black;
-
+.container > * {
+  background-color: gold;
+  outline: 2px solid black;
 }
