@@ -45,6 +45,7 @@ body .main__section-1 > * {
 }
 body .main__section-1 {
   max-height: 37.5975em;
+  min-width: 84.601875em;
   display: grid;
   grid-template-rows: auto -webkit-min-content -webkit-min-content -webkit-min-content auto;
   grid-template-rows: auto min-content min-content min-content auto;

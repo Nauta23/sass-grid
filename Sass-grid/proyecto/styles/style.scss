@@ -72,6 +72,7 @@ body {
     $row-h: min-content;
 
     max-height: $max-h;
+    min-width: math.div(1353.63em, 16);
 
     display: grid;
     grid-template-rows: auto $row-h $row-h $row-h auto;
