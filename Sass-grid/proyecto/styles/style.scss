@@ -72,7 +72,11 @@ body {
   }
 
   .main__section-1 {
-    width: 10em;
+    $max-h: math.div(601.56em, 16);
+    $row-h: min-content;
+
+    max-height: $max-h;
+    min-width: math.div(1353.63em, 16);
 
     display: grid;
     grid-template-rows: auto $row-h $row-h $row-h auto;
@@ -129,7 +133,7 @@ body {
     
 } */
 
-/*  .container {
+ .container {
 
     display: grid;
     grid-template-rows: auto auto auto;
@@ -159,10 +163,10 @@ body {
         grid-area: 1/2 / 4/3;
 
     }
-} */
+}
 
-/* .container>* {
+.container>* {
     background-color: gold;
     outline: 2px solid black;
 
-} */
+}
