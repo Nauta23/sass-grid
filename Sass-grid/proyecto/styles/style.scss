@@ -85,7 +85,6 @@ body {
       .main__section-1 {
         display: grid;
         grid-template-rows: auto repeat(3, min-content);
-        grid-template-columns: auto;
         justify-content: center;
       }
 

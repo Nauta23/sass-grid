@@ -57,7 +57,6 @@ body .main__section-1 {
     display: grid;
     grid-template-rows: auto repeat(3, -webkit-min-content);
     grid-template-rows: auto repeat(3, min-content);
-    grid-template-columns: auto;
     justify-content: center;
   }
   body .main__section-1 .section-1__title {
