@@ -73,12 +73,10 @@ body {
 
   .main__section-1 {
     $max-h: math.div(601.56em, 16);
-    $row-h: min-content;
-
-    max-height: $max-h;
+      max-height: $max-h;
 
     display: grid;
-    grid-template-rows: auto $row-h $row-h $row-h auto;
+    grid-template-rows: auto repeat(3, min-content) auto;
     grid-template-columns: 40% auto;
     justify-content: center;
     max-width: 100%;
@@ -105,6 +103,7 @@ body {
       column-gap: 2em;
 
       padding-right: 1em;
+      padding-left: 0.3em;
       height: 2.7em;
     }
 
