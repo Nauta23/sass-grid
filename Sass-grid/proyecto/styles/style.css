@@ -15,8 +15,8 @@ body {
   grid-template-rows: auto auto auto;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  padding-right: 2.7em;
-  padding-left: 2.7em;
+  /*   padding-right: $padding-x;
+    padding-left: $padding-x; */
   padding-bottom: 1em;
   justify-content: center;
 }
@@ -48,6 +48,7 @@ body .main__section-1 > * {
     display: grid;
     grid-auto-flow: row;
     justify-content: center;
+    width: 70%;
   }
   body .main__section-1 .section-1__image {
     order: -1;
@@ -65,8 +66,8 @@ body .main__section-1 > * {
   body .main__section-1 .section-1__form {
     display: grid;
     grid-auto-flow: row;
-    row-gap: 4em;
-    height: 6em;
+    row-gap: 1.5em;
+    height: 10em;
   }
 }
 @media only screen and (min-width: 916px) {
@@ -95,7 +96,7 @@ body .main__section-1 > * {
     grid-auto-flow: column;
     -moz-column-gap: 1em;
          column-gap: 1em;
-    height: 2em;
+    height: 2.8em;
     padding-right: 1em;
     padding-left: 0.3em;
   }

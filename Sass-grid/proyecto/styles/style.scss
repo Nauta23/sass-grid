@@ -35,8 +35,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 
-  padding-right: $padding-x;
-  padding-left: $padding-x;
+/*   padding-right: $padding-x;
+  padding-left: $padding-x; */
   padding-bottom: 1em;
   justify-content: center;
 
@@ -76,6 +76,7 @@ body {
       display: grid;
       grid-auto-flow: row;
       justify-content: center;
+      width: 70%;
 
       .section-1__image {
         order: -1;
@@ -96,8 +97,8 @@ body {
       .section-1__form {
         display: grid;
         grid-auto-flow: row;
-        row-gap: 4em;
-        height: 6em;
+        row-gap: 1.5em;
+        height: 10em;
       }
     }
   }
@@ -131,7 +132,7 @@ body {
         display: grid;
         grid-auto-flow: column;
         column-gap: 1em;
-        height: 2.7em;
+        height: 2.8em;
 
         padding-right: 1em;
         padding-left: 0.3em;
