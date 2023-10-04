@@ -37,7 +37,7 @@ body .header .header__nav {
   grid-auto-flow: column;
   align-content: end;
   text-align: center;
-  width: 200px;
+  width: 20vw;
 }
 body .header .header__nav .header__tabs {
   text-decoration: none;
