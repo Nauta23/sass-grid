@@ -12,29 +12,32 @@ body {
   display: grid;
   grid-auto-flow: row;
   row-gap: 10em;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: repeat(3, auto);
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  padding-right: 2.7em;
-  padding-left: 2.7em;
+  padding-right: 5vw;
+  padding-left: 5vw;
   padding-bottom: 1em;
   justify-content: center;
 }
 body .header {
   display: grid;
-  grid-auto-flow: column;
+  grid-template-columns: repeat(2, -webkit-min-content);
+  grid-template-columns: repeat(2, min-content);
   font-family: "Raleway", sans-serif;
   font-weight: 400;
+  justify-content: space-between;
+  width: 90vw;
 }
 body .header .header__logo {
-  margin-bottom: 0;
-  padding-top: 1em;
+  margin-top: 1em;
 }
 body .header .header__nav {
   display: grid;
   grid-auto-flow: column;
   align-content: end;
   text-align: center;
+  width: 200px;
 }
 body .header .header__nav .header__tabs {
   text-decoration: none;
