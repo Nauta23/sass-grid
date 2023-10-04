@@ -93,11 +93,11 @@ body .main__section-1 > * {
     grid-area: 4/1/5/2;
     display: grid;
     grid-auto-flow: column;
-    -moz-column-gap: 2em;
-         column-gap: 2em;
+    -moz-column-gap: 1em;
+         column-gap: 1em;
+    height: 2em;
     padding-right: 1em;
     padding-left: 0.3em;
-    height: em;
   }
   body .main__section-1 .section-1__image {
     grid-area: 1/2/6/3;

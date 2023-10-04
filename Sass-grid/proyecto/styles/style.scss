@@ -130,11 +130,11 @@ body {
 
         display: grid;
         grid-auto-flow: column;
-        column-gap: 2em;
+        column-gap: 1em;
+        height: 2.7em;
 
         padding-right: 1em;
         padding-left: 0.3em;
-        height: 7em;
       }
 
       .section-1__image {
