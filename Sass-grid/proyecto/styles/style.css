@@ -43,6 +43,32 @@ body .header .header__nav .header__tabs {
 body .main__section-1 > * {
   margin: 0;
 }
+@media only screen and (max-width: 915px) {
+  body .main__section-1 {
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+  }
+  body .main__section-1 .section-1__image {
+    order: -1;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  body .main__section-1 .section-1__title {
+    font-size: 2em;
+    padding-bottom: 1em;
+  }
+  body .main__section-1 .section-1__description {
+    font-size: 1.375em;
+    padding-bottom: 1em;
+  }
+  body .main__section-1 .section-1__form {
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 4em;
+    height: 6em;
+  }
+}
 @media only screen and (min-width: 916px) {
   body .main__section-1 {
     max-height: 37.5975em;
@@ -71,40 +97,12 @@ body .main__section-1 > * {
          column-gap: 2em;
     padding-right: 1em;
     padding-left: 0.3em;
-    height: 2.7em;
+    height: em;
   }
   body .main__section-1 .section-1__image {
     grid-area: 1/2/6/3;
     max-width: 100%;
     max-height: 100%;
-  }
-}
-@media only screen and (max-width: 915px) {
-  body .main__section-1 {
-    display: grid;
-    grid-auto-flow: row;
-    justify-content: center;
-  }
-  body .main__section-1 .section-1__image {
-    max-width: 100%;
-    max-height: 100%;
-  }
-  body .main__section-1 .section-1__title {
-    font-size: 2em;
-    padding-bottom: 1em;
-  }
-  body .main__section-1 .section-1__description {
-    font-size: 1.375em;
-    padding-bottom: 1em;
-  }
-  body .main__section-1 .section-1__form {
-    display: grid;
-    grid-auto-flow: column;
-    -moz-column-gap: 2em;
-         column-gap: 2em;
-    padding-right: 1em;
-    padding-left: 0.3em;
-    height: 2.7em;
   }
 }
 body input[type=button] {
