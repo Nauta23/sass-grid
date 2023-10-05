@@ -38,11 +38,11 @@ body .header .header__logo {
 }
 body .header .header__nav {
   display: grid;
-  grid-auto-flow: column;
+  grid-template-columns: repeat(3, auto);
+  -moz-column-gap: 1;
+       column-gap: 1;
   align-content: end;
   text-align: center;
-  width: 20vw;
-  max-width: 80%;
 }
 body .header .header__nav .header__tabs {
   text-decoration: none;
