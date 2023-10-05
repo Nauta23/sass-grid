@@ -35,14 +35,14 @@ body .header {
 }
 body .header .header__logo {
   margin-top: 1em;
+  width: 90%;
 }
 body .header .header__nav {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  -moz-column-gap: 1;
-       column-gap: 1;
   align-content: end;
   text-align: center;
+  width: 110%;
 }
 body .header .header__nav .header__tabs {
   text-decoration: none;
