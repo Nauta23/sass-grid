@@ -6,6 +6,10 @@
   outline: 1px solid red;
 }
 
+.borde-1 {
+  outline: 1px solid green;
+}
+
 /* Variables: */
 /* Mixings */
 body {
@@ -38,10 +42,12 @@ body .header .header__nav {
   align-content: end;
   text-align: center;
   width: 20vw;
+  max-width: 80%;
 }
 body .header .header__nav .header__tabs {
   text-decoration: none;
   color: inherit;
+  white-space: nowrap;
 }
 body .main__section-1 > * {
   margin: 0;

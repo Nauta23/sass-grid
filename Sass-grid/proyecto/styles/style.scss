@@ -9,6 +9,10 @@
   outline: 1px solid red;
 }
 
+.borde-1 {
+  outline: 1px solid green;
+}
+
 /* Variables: */
 $moderate-cyan: hsl(224, 93%, 58%);
 
@@ -61,10 +65,13 @@ body {
       text-align: center;
 
       width: 20vw;
+      max-width: 80%;
 
       .header__tabs {
         text-decoration: none;
         color: inherit;
+
+        white-space: nowrap;
       }
     }
   }
