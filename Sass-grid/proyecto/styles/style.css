@@ -26,8 +26,8 @@ body {
 }
 body .header {
   display: grid;
-  grid-template-columns: repeat(2, -webkit-min-content);
-  grid-template-columns: repeat(2, min-content);
+  grid-template-columns: 10% -webkit-min-content;
+  grid-template-columns: 10% min-content;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   justify-content: space-between;
