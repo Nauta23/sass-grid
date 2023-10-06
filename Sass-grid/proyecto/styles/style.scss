@@ -51,21 +51,19 @@ body {
     font-weight: 400;
 
     justify-content: space-between;
-    width: 90vw;
-
+    
     .header__logo {
       margin-top: 1em;
-      width: 90%;
+    
     }
 
     .header__nav {
       display: grid;
       grid-template-columns: repeat(3, auto);
-      
+      column-gap: 1em;
+
       align-content: end;
       text-align: center;
-
-      width: 110%;
 
       .header__tabs {
         text-decoration: none;

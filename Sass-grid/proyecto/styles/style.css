@@ -31,18 +31,17 @@ body .header {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   justify-content: space-between;
-  width: 90vw;
 }
 body .header .header__logo {
   margin-top: 1em;
-  width: 90%;
 }
 body .header .header__nav {
   display: grid;
   grid-template-columns: repeat(3, auto);
+  -moz-column-gap: 1em;
+       column-gap: 1em;
   align-content: end;
   text-align: center;
-  width: 110%;
 }
 body .header .header__nav .header__tabs {
   text-decoration: none;
