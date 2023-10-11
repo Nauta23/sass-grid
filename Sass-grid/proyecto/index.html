@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="shortcut icon"
+      href="Sass-grid/proyecto/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
   </head>
 
@@ -47,6 +52,76 @@
           <input class="section-1__button" type="button" value="Get started" />
         </form>
         <img src="images/illustration-1.svg" alt="" class="section-1__image" />
+      </section>
+
+      <section class="main__section-2">
+        <h2 class="section-2__title">Stay productive wherever you are</h2>
+        <section class="section-2__description">
+          <p class="section-2__paragraph">
+            Never let location be an issue when accessing your files your files.
+            Fylo has you covered for all of your file storage needs.
+          </p>
+          <p class="section-2__paragraph">
+            Securely share files and folders with friends, families and
+            colleagues for live collaboration. No email attachments required!
+          </p>
+        </section>
+        <a href="" class="section-2__link"
+          >See how Fylo works
+          <svg
+            width="16"
+            height="16"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <defs>
+              <circle id="b" cx="6" cy="6" r="6" />
+              <filter
+                x="-25%"
+                y="-25%"
+                width="150%"
+                height="150%"
+                filterUnits="objectBoundingBox"
+                id="a"
+              >
+                <feOffset in="SourceAlpha" result="shadowOffsetOuter1" />
+                <feGaussianBlur
+                  stdDeviation="1"
+                  in="shadowOffsetOuter1"
+                  result="shadowBlurOuter1"
+                />
+                <feColorMatrix
+                  values="0 0 0 0 0.239215686 0 0 0 0 0.62745098 0 0 0 0 0.560784314 0 0 0 0.793506567 0"
+                  in="shadowBlurOuter1"
+                />
+              </filter>
+            </defs>
+            <g fill="none" fill-rule="evenodd">
+              <g transform="translate(2 2)">
+                <use fill="#000" filter="url(#a)" xlink:href="#b" />
+                <use fill="#3DA08F" xlink:href="#b" />
+              </g>
+              <path
+                d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z"
+                fill="#FFF"
+              />
+            </g>
+          </svg>
+        </a>
+        <div class="card">
+          <blockquote class="card__quote">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+            adipisci sapiente nulla, cum harum tempora distinctio hic cupiditate
+            minima dicta. Velit, quam unde modi tempore dolorum minima deleniti
+            officiis. Doloribus.
+          </blockquote>
+          <footer class="card__footer">
+            <i class="card__icon"></i>
+            <h2 class="card__name">Kyle Burton</h2>
+            <h3 class="card__description">Founder & CEO, Huddle</h3>
+          </footer>
+        </div>
+        <img src="" alt="Nothing" class="section-2__image" />
       </section>
 
       <!--           <div class="container">
