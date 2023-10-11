@@ -118,7 +118,7 @@ body .main .main__section-1 > * {
 }
 body .main .main__section-2 {
   display: grid;
-  grid-template-areas: "t t . i" "d d . i" "l l . i" "c . . image";
+  grid-template-areas: "t t . i" "d d . i" "l l . i" "c . . i";
 }
 body .main .main__section-2 .section-2__title {
   grid-area: t;
