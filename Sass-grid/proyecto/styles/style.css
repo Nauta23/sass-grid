@@ -118,7 +118,7 @@ body .main .main__section-1 > * {
 }
 body .main .main__section-2 {
   display: grid;
-  grid-template-areas: "title title image" "description decription image" "link link image" "card . image";
+  grid-template-areas: "title title image" "description description image" "link link image" "card . image";
 }
 body .main .main__section-2 .section-2__title {
   grid-area: title;
