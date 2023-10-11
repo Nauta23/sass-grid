@@ -153,30 +153,28 @@ body {
       }
     }
 
-    
-
     .main__section-2 {
       display: grid;
       grid-template-areas:
-        "title title image"
-        "description description image"
-        "link link image"
-        "card . image";
+        "t t . i"
+        "d d . i"
+        "l l . i"
+        "c . . i";
 
       .section-2__title {
-        grid-area: title;
+        grid-area: t;
       }
       .section-2__description {
-        grid-area: description;
+        grid-area: d;
       }
       .section-2__link {
-        grid-area: link;
+        grid-area: l;
       }
       .card {
-        grid-area: card;
+        grid-area: c;
       }
       .section-2__image {
-        grid-area: image;
+        grid-area: i;
       }
     }
   }

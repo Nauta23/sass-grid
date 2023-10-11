@@ -118,22 +118,22 @@ body .main .main__section-1 > * {
 }
 body .main .main__section-2 {
   display: grid;
-  grid-template-areas: "title title image" "description description image" "link link image" "card . image";
+  grid-template-areas: "t t . i" "d d . i" "l l . i" "c . . image";
 }
 body .main .main__section-2 .section-2__title {
-  grid-area: title;
+  grid-area: t;
 }
 body .main .main__section-2 .section-2__description {
-  grid-area: description;
+  grid-area: d;
 }
 body .main .main__section-2 .section-2__link {
-  grid-area: link;
+  grid-area: l;
 }
 body .main .main__section-2 .card {
-  grid-area: card;
+  grid-area: c;
 }
 body .main .main__section-2 .section-2__image {
-  grid-area: image;
+  grid-area: i;
 }
 body input[type=button] {
   background-color: hsl(224deg, 93%, 58%);
