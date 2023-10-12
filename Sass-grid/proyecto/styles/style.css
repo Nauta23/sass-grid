@@ -118,7 +118,9 @@ body .main .main__section-1 > * {
 }
 body .main .main__section-2 {
   display: grid;
-  grid-template-areas: "t t . i" "d d . i" "l l . i" "c . . i";
+  grid-template-areas: "t t t i i" "d d . i i" "l . . i i" "c . . i i";
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: repeat(5, auto);
 }
 body .main .main__section-2 .section-2__title {
   grid-area: t;
@@ -134,6 +136,15 @@ body .main .main__section-2 .card {
 }
 body .main .main__section-2 .section-2__image {
   grid-area: i;
+  max-width: 100%;
+  max-height: 100%;
+}
+body .div {
+  width: 30vw;
+}
+body .div .img {
+  outline: 1px solid red;
+  max-width: 100%;
 }
 body input[type=button] {
   background-color: hsl(224deg, 93%, 58%);
