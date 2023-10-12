@@ -118,9 +118,9 @@ body .main .main__section-1 > * {
 }
 body .main .main__section-2 {
   display: grid;
-  grid-template-areas: "t t t i i" "d d . i i" "l . . i i" "c . . i i";
+  grid-template-areas: "t t t t i i i i" "d d d . i i i i" "l . . . i i i i" "c c . . i i i i";
   grid-template-rows: repeat(4, auto);
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(8, auto);
 }
 body .main .main__section-2 .section-2__title {
   grid-area: t;
@@ -140,11 +140,11 @@ body .main .main__section-2 .section-2__image {
   max-height: 100%;
 }
 body .div {
-  width: 30vw;
+  width: 80%;
 }
 body .div .img {
   outline: 1px solid red;
-  max-width: 100%;
+  width: 90%;
 }
 body input[type=button] {
   background-color: hsl(224deg, 93%, 58%);
