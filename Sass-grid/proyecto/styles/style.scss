@@ -183,6 +183,12 @@ body {
     }
   }
 
+  input[type="button"] {
+    background-color: $moderate-cyan;
+    border-style: none;
+    color: white;
+  }
+
   .div {
     width: 80%;
 
@@ -190,12 +196,6 @@ body {
       outline: 1px solid red;
       width: 90%;
     }
-  }
-
-  input[type="button"] {
-    background-color: $moderate-cyan;
-    border-style: none;
-    color: white;
   }
 }
 
